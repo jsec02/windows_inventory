@@ -25,6 +25,7 @@ machines:
         - qBittorrent.qBittorrent
         - sxyazi.yazi
         - yt-dlp.yt-dl
+        - restic.restic
 ssh:
   machines:
     - windows
