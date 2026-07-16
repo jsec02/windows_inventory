@@ -48,11 +48,12 @@ zellij:
     - windows
   links:
     C:\Users\master\dotfiles\zellij: C:\Users\master\AppData\Roaming\Zellij\config
-pwsh:
+powershell-profile:
   machines:
     - windows
   links:
-    C:\Users\master\dotfiles\pwsh: C:\Users\master\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+    C:\Users\master\dotfiles\powershell-profile\Microsoft.PowerShell_profile.ps1: C:\Users\master\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+    C:\Users\master\dotfiles\powershell-profile\Microsoft.PowerShell_profile.local.ps1: C:\Users\master\Documents\PowerShell\Microsoft.PowerShell_profile.local.ps1
 windows-terminal:
   machines:
     - windows
@@ -68,3 +69,8 @@ parsers:
     - windows
   paths:
     - C:\Users\master\parsers
+powershell:
+  machines:
+    - windows
+  paths:
+    - C:\Users\master\powershell
