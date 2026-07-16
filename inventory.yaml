@@ -57,3 +57,8 @@ windows-terminal:
     - windows
   paths:
     C:\Users\master\dotfiles\windows-terminal: C:\Users\master\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+inventory:
+  machines:
+    - windows
+  paths:
+    - C:\Users\master\inventory
