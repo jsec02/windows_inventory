@@ -9,7 +9,7 @@ machines:
         - Fastfetch-cli.Fastfetch
         - Git.Git
         - Microsoft.PowerToys
-        - Microsoft.Powershell,
+        - Microsoft.Powershell
         - Microsoft.WSL
         - Mozilla.Firefox
         - Neovim.Neovim
