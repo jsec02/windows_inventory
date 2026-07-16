@@ -62,3 +62,8 @@ inventory:
     - windows
   paths:
     - C:\Users\master\inventory
+parsers:
+  machines:
+    - windows
+  paths:
+    - C:\Users\master\parsers
