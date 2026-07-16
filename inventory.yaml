@@ -1,0 +1,59 @@
+machines:
+  windows:
+    package_managers:
+      winget:
+        - 7zip.7zip
+        - Atuinsh.Atuin
+        - Deskflow.Deskflow
+        - Discord.Discord
+        - Fastfetch-cli.Fastfetch
+        - Git.Git
+        - Microsoft.PowerToys
+        - Microsoft.Powershell,
+        - Microsoft.WSL
+        - Mozilla.Firefox
+        - Neovim.Neovim
+        - Python.Python.3.14
+        - RazerInc.RazerInstaller.Synapse4
+        - Valve.Steam
+        - VideoLAN.VLC
+        - WiresharkFoundation.Wireshark
+        - Zellij.Zellij
+        - RiotGames.LeagueOfLegends.NA
+        - dbrgn.tealdeer
+        - jeffvli.Feishin
+        - qBittorrent.qBittorrent
+        - sxyazi.yazi
+        - yt-dlp.yt-dl
+ssh:
+  machines:
+    - windows
+  links:
+    C:\Users\master\dotfiles\ssh\config: C:\Users\master\.ssh\config
+  paths:
+    - C:\Users\master\.ssh
+history:
+  machines:
+    - windows
+  paths:
+    - C:\Users\master\.local\share\atuin\history.db
+atuin:
+  machines:
+    - windows
+  links:
+    C:\Users\master\dotfiles\atuin: C:\Users\master\.config\atuin
+zellij:
+  machines:
+    - windows
+  links:
+    C:\Users\master\dotfiles\zellij: C:\Users\master\AppData\Roaming\Zellij\config
+pwsh:
+  machines:
+    - windows
+  links:
+    C:\Users\master\dotfiles\pwsh: C:\Users\master\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+windows-terminal:
+  machines:
+    - windows
+  paths:
+    C:\Users\master\dotfiles\windows-terminal: C:\Users\master\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
