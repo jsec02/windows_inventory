@@ -26,6 +26,8 @@ machines:
         - sxyazi.yazi
         - yt-dlp.yt-dl
         - restic.restic
+      pip3:
+        - pyyaml
 ssh:
   machines:
     - windows
