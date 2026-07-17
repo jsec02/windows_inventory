@@ -24,7 +24,7 @@ machines:
         - jeffvli.Feishin
         - qBittorrent.qBittorrent
         - sxyazi.yazi
-        - yt-dlp.yt-dl
+        - yt-dlp.yt-dlp
         - restic.restic
       pip3:
         - pyyaml
