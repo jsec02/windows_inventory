@@ -76,3 +76,8 @@ powershell:
     - windows
   paths:
     - C:\Users\master\powershell
+dotfiles:
+  machines:
+    - windows
+  paths:
+    - C:\Users\master\powershell
