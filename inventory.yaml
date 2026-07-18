@@ -59,7 +59,7 @@ powershell-profile:
 windows-terminal:
   machines:
     - windows
-  paths:
+  links:
     C:\Users\master\dotfiles\windows-terminal: C:\Users\master\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 inventory:
   machines:
