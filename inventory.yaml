@@ -60,7 +60,7 @@ windows-terminal:
   machines:
     - windows
   links:
-    C:\Users\master\dotfiles\windows-terminal: C:\Users\master\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+    C:\Users\master\dotfiles\windows-terminal\settings.json: C:\Users\master\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 inventory:
   machines:
     - windows
