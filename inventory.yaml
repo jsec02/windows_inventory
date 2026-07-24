@@ -80,3 +80,8 @@ dotfiles:
     - windows
   paths:
     - C:\Users\master\powershell
+command-palette:
+  machines:
+    - windows
+  links:
+    C:\users\master\dotfiles\command-palette\settings.json: C:\Users\master\AppData\Local\Packages\Microsoft.CommandPalette_8wekyb3d8bbwe\LocalState\settings.json
