@@ -38,6 +38,7 @@ history:
   machines:
     - windows
   paths:
+    - C:\Users\master\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
     - C:\Users\master\.local\share\atuin\history.db
 atuin:
   machines:
