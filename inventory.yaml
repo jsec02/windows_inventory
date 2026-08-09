@@ -35,6 +35,7 @@ ssh:
     C:\Users\master\dotfiles\ssh\config: C:\Users\master\.ssh\config
   paths:
     - C:\Users\master\.ssh
+    - C:\ProgramData\ssh\administrators_authorized_keys
 history:
   machines:
     - windows
