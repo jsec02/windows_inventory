@@ -12,6 +12,7 @@ machines:
         - Microsoft.Powershell
         - Microsoft.WSL
         - Mozilla.Firefox
+        - Microsoft.OpenSSH.Preview
         - Neovim.Neovim
         - Python.Python.3.14
         - RazerInc.RazerInstaller.Synapse4
