@@ -47,6 +47,11 @@ atuin:
     - windows
   links:
     C:\Users\master\dotfiles\atuin: C:\Users\master\.config\atuin
+nvim:
+  machines:
+    - windows
+  links:
+    C:\Users\master\dotfiles\nvim: C:\Users\master\AppData\Local\nvim
 zellij:
   machines:
     - windows
