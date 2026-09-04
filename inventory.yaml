@@ -26,6 +26,7 @@ machines:
         - qBittorrent.qBittorrent
         - sxyazi.yazi
         - yt-dlp.yt-dlp
+        - AutomatedLab.AutomatedLab
       pip3:
         - pyyaml
 ssh:
