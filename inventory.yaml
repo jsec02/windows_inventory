@@ -28,6 +28,8 @@ machines:
         - yt-dlp.yt-dlp
       pip3:
         - pyyaml
+    modules:
+      - Pester
 ssh:
   machines:
     - windows
