@@ -27,6 +27,7 @@ machines:
         - sxyazi.yazi
         - yt-dlp.yt-dlp
         - DuongDieuPhap.ImageGlass
+        - 9NF8H0H7WMLT
       pip3:
         - pyyaml
     modules:
