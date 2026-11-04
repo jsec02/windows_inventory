@@ -28,6 +28,7 @@ machines:
         - yt-dlp.yt-dlp
         - DuongDieuPhap.ImageGlass
         - 9NF8H0H7WMLT
+        - Microsoft.Sysinternals.ProcessExplorer
       pip3:
         - pyyaml
     modules:
