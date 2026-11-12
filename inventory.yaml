@@ -29,6 +29,7 @@ machines:
         - DuongDieuPhap.ImageGlass
         - 9NF8H0H7WMLT
         - Microsoft.Sysinternals.ProcessExplorer
+        - OpenVPNTechnologies.OpenVPN
       pip3:
         - pyyaml
     modules:
